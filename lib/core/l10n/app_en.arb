@@ -1,0 +1,18 @@
+{
+    "score":"Score",
+    "@score":{
+        "description": "Game Score"
+    },
+    "time":"Time",
+    "@score":{
+        "description": "Game Time"
+    },
+    "flip":"Flips",
+    "@score":{
+        "description": "Game Flips"
+    },
+    "highscore":"High Score",
+    "@score":{
+        "description": "High Score"
+    }
+}
