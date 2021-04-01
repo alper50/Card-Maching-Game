@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
-import 'package:memoristan/core/modules/sharedpref.dart';
 import 'package:memoristan/ui/widgets/custom_dialog.dart';
 import "package:flutter_gen/gen_l10n/app_localizations.dart";
 
@@ -18,7 +17,6 @@ class _GamePageState extends State<GamePage> {
   List<GlobalKey<FlipCardState>> cardStateKeys = [];
   List<bool> cardFlips = [];
   List<String> data = [];
-  SharedPref sharedPref;
   int previousIndex = -1;
   bool flip = false;
   int time = 0;
