@@ -1,7 +1,9 @@
 # Card-Maching-Game
 
-### Provider for darkmode
-### Localization // Türkçe-English-Chinese
+-Provider for darkmode
+-Localization // Türkçe-English-中国人
+-SharedPreferences 
+
 <div>
   <image src="assets/images/Screenshot_1618162636.png" width=300>
   <image src="assets/images/Screenshot_1618162655.png"width=300>
