@@ -3,9 +3,9 @@
 ### Provider for darkmode
 ### Localization // Türkçe-English-Chinese
 <div>
-  <image src="assets/images/Screenshot_1618162636.png" width=250>
-  <image src="assets/images/Screenshot_1618162655.png"width=250>
-  <image src="assets/images/Screenshot_1618162667.png"width=250>
+  <image src="assets/images/Screenshot_1618162636.png" width=300>
+  <image src="assets/images/Screenshot_1618162655.png"width=300>
+  <image src="assets/images/Screenshot_1618162667.png"width=300>
 </div>
 
 
