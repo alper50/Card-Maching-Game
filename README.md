@@ -1,8 +1,9 @@
-# memoristan
+# Card-Maching-Game
 
-A new Flutter project.
+### Provider for darkmode
+### Localization // Türkçe-English-Chinese
 
-## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
