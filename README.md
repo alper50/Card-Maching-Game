@@ -2,10 +2,12 @@
 
 ### Provider for darkmode
 ### Localization // Türkçe-English-Chinese
+<div>
+  <image src="assets/images/Screenshot_1618162636.png" width=200>
+  <image src="assets/images/Screenshot_1618162655.png"width=200>
+  <image src="assets/images/Screenshot_1618162667.png"width=200>
+</div>
 
-<image src="assets/images/Screenshot_1618162636.png" width=200>
-<image src="assets/images/Screenshot_1618162655.png"width=200>
-<image src="assets/images/Screenshot_1618162667.png"width=200>
 
 This project is a starting point for a Flutter application.
 
