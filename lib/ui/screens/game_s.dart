@@ -13,7 +13,7 @@ class GamePage extends StatefulWidget {
   _GamePageState createState() => _GamePageState();
 }
 
-class _GamePageState extends State<GamePage> {
+class _GamePageState extends State<GamePage> with WidgetsBindingObserver{
   List<GlobalKey<FlipCardState>> cardStateKeys = [];
   List<bool> cardFlips = [];
   List<String> data = [];
@@ -36,6 +36,7 @@ class _GamePageState extends State<GamePage> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     for (var i = 0; i < widget.cardNumbers; i++) {
       cardStateKeys.add(GlobalKey<FlipCardState>());
       cardFlips.add(true);
@@ -204,9 +205,28 @@ calculatepoint( {int flip, int level,int time}){
 
   return flipbonus + timebonus;
 }
+
   @override
   void dispose() {
     timer.cancel();
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
+  }
+ 
+ @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    switch(state){
+      case AppLifecycleState.paused:
+        timer.cancel();
+        break;
+      case AppLifecycleState.resumed:
+        startTimer();
+        break;
+      case AppLifecycleState.detached:
+        break;
+      case AppLifecycleState.inactive:
+        break;
+    }
   }
 }
