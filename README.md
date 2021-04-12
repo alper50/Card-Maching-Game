@@ -8,9 +8,9 @@ You can play with demo from <a href="https://alperenyalcin.online/Card-Maching-G
 
 
 <div>
-  <image src="assets/images/Screenshot_1618162636.png" width=300>
-  <image src="assets/images/Screenshot_1618162655.png"width=300>
-  <image src="assets/images/Screenshot_1618162667.png"width=300>
+  <image src="assets/images/Screenshot_1618162636.png" width=250>
+  <image src="assets/images/Screenshot_1618162655.png"width=250>
+  <image src="assets/images/Screenshot_1618162667.png"width=250>
 </div>
 
 
