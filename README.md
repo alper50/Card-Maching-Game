@@ -4,7 +4,7 @@
 #### Localization // Türkçe-English-中国人
 #### SharedPreferences for saving thememode
 
-You can play with demo from <a href="https://alperenyalcin.online/Card-Maching-Game/">here</a>
+
 
 
 <div>
